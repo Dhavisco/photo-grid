@@ -9,8 +9,8 @@ import room from "../assets/bedroom.webp";
 
 const Index = () => {
   return (
-    <div className="m-4 flex flex-col gap-4">
-      <ul className="grid grid-cols-4 gap-4">
+    <div className="m-4 flex flex-col gap-2 sm:gap-4 ">
+      <ul className="grid grid-cols-4 gap-2 sm:gap-4 ">
         <li className="col-span-1 h-52 sm:h-72 lg:h-[34rem]">
           <img
             src={sea}
@@ -33,7 +33,7 @@ const Index = () => {
           />
         </li>
       </ul>
-      <ul className="grid grid-cols-4 gap-4">
+      <ul className="grid grid-cols-4 gap-2 sm:gap-4 ">
         <li className="flex flex-col gap-2 justify-between col-span-1 h-52 sm:h-72 lg:h-[34rem]">
           <div className=" h-24 sm:h-36 lg:h-[16.5rem]">
             <img
