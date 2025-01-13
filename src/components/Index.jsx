@@ -35,14 +35,14 @@ const Index = () => {
       </ul>
       <ul className="grid grid-cols-4 gap-2 sm:gap-4 ">
         <li className="flex flex-col gap-2 justify-between col-span-1 h-52 sm:h-72 lg:h-[34rem]">
-          <div className=" h-24 sm:h-36 lg:h-[16.5rem]">
+          <div className=" h-[6.3rem] sm:h-36 lg:h-[16.5rem]">
             <img
               src={rest}
               alt="sea"
               className="rounded-3xl object-cover w-full h-full aspect-square"
             />
           </div>
-          <div className=" h-24 sm:h-36 lg:h-[16.5rem]">
+          <div className=" h-[6.3rem] sm:h-36 lg:h-[16.5rem]">
             <img
               src={baddie}
               alt="sea"
@@ -58,14 +58,14 @@ const Index = () => {
           />
         </li>
         <li className="flex flex-col gap-2 justify-between col-span-2 h-52 sm:h-72 lg:h-[34rem]">
-          <div className=" h-24 sm:h-36 lg:h-[16.5rem]">
+          <div className=" h-[6.3rem] sm:h-36 lg:h-[16.5rem]">
             <img
               src={room}
               alt="sea"
               className="rounded-3xl object-cover w-full h-full aspect-square"
             />
           </div>
-          <div className=" h-24 sm:h-36 lg:h-[16.5rem]">
+          <div className=" h-[6.3rem] sm:h-36 lg:h-[16.5rem]">
             <img
               src={dark}
               alt="sea"
